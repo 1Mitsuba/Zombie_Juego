@@ -27,10 +27,7 @@
       ]
     },
     "description": "Apocalipsis Tap - juego móvil creado con Expo",
-    "plugins": [
-      "expo-audio",
-      "expo-video"
-    ],
+    "plugins": [],
     "extra": {
       "eas": {
         "projectId": "49c0fa88-239f-4572-b667-98f72f8d1e86"
