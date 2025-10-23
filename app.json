@@ -5,7 +5,8 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "platforms": [
-      "android"
+      "android",
+      "web"
     ],
     "sdkVersion": "54.0.0",
     "updates": {
@@ -28,6 +29,9 @@
     },
     "description": "Apocalipsis Tap - juego móvil creado con Expo",
     "plugins": [],
+    "web": {
+      "favicon": "./assets/Corazon.png"
+    },
     "extra": {
       "eas": {
         "projectId": "49c0fa88-239f-4572-b667-98f72f8d1e86"
