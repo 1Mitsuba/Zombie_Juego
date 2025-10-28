@@ -4,7 +4,9 @@
   "description": "Este es un proyecto de ejemplo para crear un juego móvil simple llamado \"Apocalipsis Tap\" usando React Native y Expo. Está diseñado para principiantes y contiene pantallas básicas: menú, juego, pausa y nivel completado.",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +15,8 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
     "expo": "54.0.19",
-    
     "expo-av": "~16.0.7",
     "expo-linear-gradient": "~15.0.7",
-    
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-native": "0.81.5",
